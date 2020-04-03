@@ -2,38 +2,38 @@
 <html lang="fr">
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> <!-- Police QuickSand -->
-	<link rel="stylesheet" type="text/css" href="cssb/bootstrap-grid.css">
-	<link rel="stylesheet" type="text/css" href="css/Denis.css"> <!-- Mettre votre fichier css avec votre couleur -->
-	<link rel="stylesheet" type="text/css" href="CSS/cv.css">
+	<link rel="stylesheet" type="text/css" href="../cssb/bootstrap-grid.css">
+	<link href="../css/all.css" rel="stylesheet"> <!--Font-Awesome -->
+	<link rel="stylesheet" type="text/css" href="../css/Denis.css"> <!-- Mettre votre fichier css avec votre couleur -->
+	<link rel="stylesheet" type="text/css" href="../CSS/cv.css">
 	<meta charset="utf-8">
 
 	<title>Contactez-moi</title>
 </head>
 <body>
 <!-- Header caché pour les petits écrans-->
-<div id="maison"><a href="index.html"><i class="fas fa-user-friends maisonIcone justify-content-around"></i></a></div>
+<a href="../index.html"><div id="maison"><i class="fas fa-home maisonIcone justify-content-around"></i></div></a>
 <!-- Header de nos têtes -->	
 	
 
-   <div class="photos">
+<div class="photos">
 
-		<a href="index.html"><i class="fas fa-user-friends maisonIconeGrand justify-content-around"></i></a>
-	    <div class="photoIndiv"><img src="./IMG/Louis.png" alt="Photo de Louis" class="tete select"/><a class="texteCentre">Louis</a></div>  
-	    <div class="photoIndiv"><img src="./IMG/Theo.jpg" alt="Photo de Théo" class="tete"/><a class="texteCentre">Théo</a></div>  
-	    <div class="photoIndiv"><img src="./IMG/grandephoto.png" alt="Photo de Marie-Laure" class="tete"/><a class="texteCentre">Marie-Laure</a></div>  
-	    <div class="photoIndiv"><img src="./IMG/Denis.jpg" alt="Photo de Denis" class="tete"/><a class="texteCentre">Denis</a></div>  
+     <a href="../index.html"><i class="fas fa-user-friends maisonIconeGrand justify-content-around"></i></a>
+    <a class="texteCentre" href="./headerlouis.html"><div class="photoIndiv"><img src="../IMG/Louis.png" alt="Photo de Louis" class="tete"/>Louis</div></a> 
+    <a class="texteCentre" href="./headertheo.html"><div class="photoIndiv"><img src="../IMG/Theo.jpg" alt="Photo de Théo" class="tete"/>Théo</div></a>  
+    <a class="texteCentre" href="./headerMarieLaure.html"><div class="photoIndiv"><img src="../IMG/MarieLaure.jpg" alt="Photo de Marie-Laure" class="tete"/>Marie-Laure</div></a>  
+    <a class="texteCentre" href="./headerDenis.html"><div class="photoIndiv"><img src="../IMG/Denis.jpg" alt="Photo de Denis" class="tete select"/>Denis</div></a>  
 
-    </div>
-
+</div>
 <!-- Barre de Navigation -->
-
+<span id="enHaut"></span>
 <div class="container">
     
     <nav class="row">
-        <div class="col-sm"><a class="menu" href="header.html">CV</a></div>
-        <div class="col-sm"><a class="menu" href="hobby.html">Hobby</a></div>
-        <div class="col-sm"><a class="menu" href="video.html">Vidéos</a></div>
-        <div class="col-sm"><a class="menu" href="form.html">Contact</a></div>
+        <div class="col-sm"><a class="menu" href="headerDenis.html">CV</a></div>
+        <div class="col-sm"><a class="menu" href="hobbyDenis.html">Hobby</a></div>
+        <div class="col-sm"><a class="menu" href="videoDenis.html">Vidéos</a></div>
+        <div class="col-sm"><a class="menu" href="formDenis.html">Contact</a></div>
     </nav>
 </div>
 	
@@ -64,7 +64,7 @@
 				<fieldset>
 					<legend>Votre message</legend>
 					<p>
-						<textarea name="message" id="message" placeholder="Ecrivez votre message ici."></textarea>
+						<textarea name="message" id="message" placeholder="Décrivez-moi votre problème."></textarea>
 					</p>
 				</fieldset>
 
@@ -73,5 +73,6 @@
 				</p>
 		</form>
 	<!-- </div> -->
+	<a href="#enHaut"><i class="fas fa-chevron-circle-up remonter"></i></a>
 </body>
 </html>
